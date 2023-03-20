@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gqh-lJ-IVG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="243" translatesAutoresizingMaskIntoConstraints="NO" id="rsM-47-7WV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Family bpth parents, 2 brothers, and a dog, brothers graduated" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cU6-kd-x2o">
+                                        <rect key="frame" x="41.5" y="0.0" width="331.5" height="76"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2022-02-17 at 10.35.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="ORr-ut-oPn">
+                                        <rect key="frame" x="0.0" y="319" width="414" height="533"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="rsM-47-7WV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Pn-63-yhW"/>
+                            <constraint firstAttribute="trailing" secondItem="rsM-47-7WV" secondAttribute="trailing" id="L80-ka-EDa"/>
+                            <constraint firstAttribute="bottom" secondItem="rsM-47-7WV" secondAttribute="bottom" id="fdE-C9-qKL"/>
+                            <constraint firstItem="rsM-47-7WV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="i4a-Qx-VuT"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="r.square" catalog="system" selectedImage="r.square.fill" id="T8g-C0-PPh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="77.678571428571431"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="oCP-62-T9c">
+            <objects>
+                <viewController id="fQI-ja-7ZP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yoX-av-Qfb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-IE-jnc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="My Self im 18, graduating this year, goign to college" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZ7-cG-QgG">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="518"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="ys2-72-Yyq">
+                                        <rect key="frame" x="0.0" y="518" width="414" height="251"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cFk-XH-cBD"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="cFk-XH-cBD" firstAttribute="trailing" secondItem="AdD-IE-jnc" secondAttribute="trailing" id="11v-vK-rY5"/>
+                            <constraint firstItem="cFk-XH-cBD" firstAttribute="bottom" secondItem="AdD-IE-jnc" secondAttribute="bottom" id="2rt-VC-KMM"/>
+                            <constraint firstItem="AdD-IE-jnc" firstAttribute="top" secondItem="cFk-XH-cBD" secondAttribute="top" id="6gs-4w-rhW"/>
+                            <constraint firstItem="AdD-IE-jnc" firstAttribute="leading" secondItem="cFk-XH-cBD" secondAttribute="leading" id="A0t-Vf-kUe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="o.square" catalog="system" selectedImage="o.square.fill" id="XC6-pT-CZH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hg7-Q8-fwf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="948"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="723-AA-m5f">
+            <objects>
+                <viewController id="QdH-V8-9Pk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c4N-Y5-Suz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2G2-0i-f9O">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="hobbies, reading,shopping, and hiking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKl-Eo-wk8">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="piles-of-books-featured-1280x720" translatesAutoresizingMaskIntoConstraints="NO" id="rQb-mV-iYw">
+                                        <rect key="frame" x="0.0" y="132" width="414" height="720"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4rN-VR-mOR"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="2G2-0i-f9O" firstAttribute="top" secondItem="4rN-VR-mOR" secondAttribute="top" id="1t6-rj-48J"/>
+                            <constraint firstItem="2G2-0i-f9O" firstAttribute="leading" secondItem="4rN-VR-mOR" secondAttribute="leading" id="9ji-Er-8L4"/>
+                            <constraint firstAttribute="bottom" secondItem="2G2-0i-f9O" secondAttribute="bottom" id="bMa-z3-hx7"/>
+                            <constraint firstAttribute="trailing" secondItem="2G2-0i-f9O" secondAttribute="trailing" id="lX4-yw-kfS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="y.square" catalog="system" selectedImage="y.square.fill" id="xBr-GJ-gwN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0V-Hl-FP0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1241" y="785"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GX8-3o-lC9">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Gqh-lJ-IVG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HLN-NR-Ac7">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="XcH-ts-oIc"/>
+                        <segue destination="fQI-ja-7ZP" kind="relationship" relationship="viewControllers" id="j4M-23-M9N"/>
+                        <segue destination="QdH-V8-9Pk" kind="relationship" relationship="viewControllers" id="nGK-Nx-XJA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VcO-i9-wSb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2022-02-17 at 10.35.47 AM" width="800" height="533"/>
+        <image name="download" width="201" height="251"/>
+        <image name="o.square" catalog="system" width="128" height="114"/>
+        <image name="o.square.fill" catalog="system" width="128" height="114"/>
+        <image name="piles-of-books-featured-1280x720" width="1280" height="720"/>
+        <image name="r.square" catalog="system" width="128" height="114"/>
+        <image name="r.square.fill" catalog="system" width="128" height="114"/>
+        <image name="y.square" catalog="system" width="128" height="114"/>
+        <image name="y.square.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
